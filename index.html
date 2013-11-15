@@ -1,0 +1,187 @@
+<!--
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Tienne', serif;
+font-family: 'Damion', cursive;
+font-family: 'Prosto One', cursive;
+font-family: 'Orbitron', sans-serif;
+	-->
+
+<html>
+	<head>
+		
+		<link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic|Tienne:400,700,900|Damion|Prosto+One|Orbitron:400,500,700,900' 
+		rel='stylesheet' type='text/css'>
+
+		<style>
+			#arabidesign_slider{
+				font-family: verdana;
+				font-size: 12px;line-height: 18px;
+				background: #2d2d2d;
+			}
+			.warpe{
+				width: 900px;margin: 0 auto;
+				background: #fbfbfb;height: 300px;
+				margin-top: 50px;padding: 30px 5px 15px 20px;
+				overflow: hidden;position: relative;
+			}
+			.item{
+				float: left;width: 280px;
+				margin-left: 20px;
+
+			}
+			.item h3{
+				font-family: 'Prosto One', cursive;
+				font-size: 25px;font-weight: normal;
+				float: left;margin-right: 10px;
+			}
+			.item p{
+				color: #717171;
+				font-size: 11px;
+				margin-right: 40px;
+			}
+			.item h2{
+				font-family: 'Damion', cursive;
+				font-weight: normal;
+				font-size: 24px;
+				color: #474747;
+			}
+			.item .backgroun{
+				background-color: #febf00;
+				height: 145px;
+				width: 248px;
+				display: block;
+				position: relative;
+				border-radius: 3px;
+			}
+			.item .backgroun img{
+				position: absolute;
+				top: 5px;left: -5px;
+				border-radius: 3px;
+				box-shadow: 0 -1px 3px rgba(0,0,0,.2);
+			}
+			.cercle_left{
+				background-color: #fed55b;
+				width: 50px;height: 50px;top: -20px;right: -20px;
+				border-radius: 50px;position: absolute;
+				box-shadow: inset 0 0 5px  rgba(0,0,0,.5); 
+			}
+			.cercle_right{
+				background-color: #fed55b;
+				width: 50px;height: 50px;top: -20px;left: -20px;
+				border-radius: 50px;position: absolute;
+				box-shadow: inset 0 0 5px  rgba(0,0,0,.5); 
+			}
+			.left_side{
+				font-family: 'Orbitron', sans-serif;
+				font-size: 20px;float: right;margin-right: 10px;
+			}
+			.right_side{
+				font-family: 'Orbitron', sans-serif;
+				font-size: 20px;float: left;
+			}
+			.left_side:hover{
+				cursor: pointer;
+			}
+			.right_side:hover{
+				cursor: pointer;
+			}
+		</style>
+	</head>
+
+	<body id="arabidesign_slider">
+		
+		<div class="warpe">
+			<div class="cercle_left"></div>
+			<div class="cercle_right"></div>
+			<div id="run_slider">
+				<div class="item">
+					<div class="backgroun">
+						<img src="images/1.jpg" alt="" class="thumbnail">
+					</div>
+					<h2>Featured Product Slider</h2>
+					<h3>105$</h3>
+					<p>
+						This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
+					</p>
+				</div>
+				<div class="item">
+					<div class="backgroun">
+						<img src="images/2.jpg" alt="" class="thumbnail">
+					</div>
+					<h2>Design by ayoub kacimi</h2>
+					<h3>105$</h3>
+					<p>
+						This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
+					</p>
+				</div>
+				<div class="item">
+					<div class="backgroun">
+						<img src="images/3.jpg" alt="" class="thumbnail">
+					</div>
+					<h2>Arabidesign Company</h2>
+					<h3>105$</h3>
+					<p>
+						This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
+					</p>
+				</div>
+
+				<div class="item">
+					<div class="backgroun">
+						<img src="images/3.jpg" alt="" class="thumbnail">
+					</div>
+					<h2>Arabidesign Company</h2>
+					<h3>105$</h3>
+					<p>
+						This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
+					</p>
+				</div>
+
+				<div class="item">
+					<div class="backgroun">
+						<img src="images/3.jpg" alt="" class="thumbnail">
+					</div>
+					<h2>Arabidesign Company</h2>
+					<h3>105$</h3>
+					<p>
+						This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
+					</p>
+				</div>
+			</div>
+
+			<span class="left_side">></span>
+			
+			<span class="right_side"><</span>
+
+			<div class="pagination"></div>
+
+		</div>
+		<script src="jquery-1.8.2.min.js"></script>
+		<script src="easing.js"></script>
+		<script src="easing_name.js"></script>
+		<script src="jquery.carouFredSel-6.2.1-packed.js"></script>
+		<script>
+			$("#run_slider").carouFredSel({
+
+				circular: true,
+				infinite: true,
+				auto 	: true,
+				auto : {
+					fx : "scroll",
+					easing : "easeInElastic",
+					duration: 800
+				},
+				prev	: {	
+					button	: ".left_side",
+					key		: "left",
+					fx : "scroll",easing : "easeInElastic",	duration: 800
+				},
+				next	: { 
+					button	: ".right_side",
+					key		: "right",
+					fx : "scroll",easing : "easeInElastic",	duration: 800
+				},
+				pagination	: ".pagination"
+			});
+		</script>
+	</body>
+</html>
