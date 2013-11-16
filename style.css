@@ -6,74 +6,73 @@ font-family: 'Prosto One', cursive;
 font-family: 'Orbitron', sans-serif;
 **/
 	#arabidesign_slider{
-	font-family: verdana;
-	font-size: 12px;line-height: 18px;
-	background: #2d2d2d;text-align: right;
+		font-family: verdana;
+		font-size: 12px;line-height: 18px;
+		background: #2d2d2d;text-align: right;
 	}
 	.abi_Slider_warpe{
-	width: 900px;margin: 0 auto;
-	background: #fbfbfb;height: 300px;
-	margin-top: 50px;padding: 30px 5px 15px 20px;
-	overflow: hidden;position: relative;
+		width: 900px;margin: 0 auto;
+		background: #fbfbfb;height: 300px;
+		margin-top: 50px;padding: 30px 5px 15px 20px;
+		overflow: hidden;position: relative;
 	}
 	.item{
-	float: left;width: 280px;
-	margin-left: 20px;
-
+		float: left;width: 280px;
+		margin-left: 20px;
 	}
 	.item h3{
-	font-family: 'Prosto One', cursive;
-	font-size: 25px;font-weight: normal;
-	float: right;margin-right: 10px;
+		font-family: 'Prosto One', cursive;
+		font-size: 25px;font-weight: normal;
+		float: right;margin-right: 10px;
 	}
 	.item p{
-	color: #717171;
-	font-size: 11px;
-	margin-right: 40px;float: left;
+		color: #717171;
+		font-size: 11px;
+		margin-right: 40px;float: left;
 	}
 	.item h2{
-	font-family: 'Damion', cursive;
-	font-weight: normal;
-	font-size: 24px;
-	color: #474747;
+		font-family: 'Damion', cursive;
+		font-weight: normal;
+		font-size: 24px;
+		color: #474747;
 	}
 	.item .backgroun{
-	background-color: #febf00;
-	height: 145px;
-	width: 248px;
-	display: block;
-	position: relative;
-	border-radius: 3px;
+		background-color: #febf00;
+		height: 145px;
+		width: 248px;
+		display: block;
+		position: relative;
+		border-radius: 3px;
 	}
 	.item .backgroun img{
-	position: absolute;
-	top: 5px;left: -5px;
-	border-radius: 3px;
-	box-shadow: 0 -1px 3px rgba(0,0,0,.2);
+		position: absolute;
+		top: 5px;left: -5px;
+		border-radius: 3px;
+		box-shadow: 0 -1px 3px rgba(0,0,0,.2);
 	}
 	.cercle_left{
-	background-color: #fed55b;
-	width: 50px;height: 50px;top: -20px;right: -20px;
-	border-radius: 50px;position: absolute;
-	box-shadow: inset 0 0 5px  rgba(0,0,0,.5); 
+		background-color: #fed55b;
+		width: 50px;height: 50px;top: -20px;right: -20px;
+		border-radius: 50px;position: absolute;
+		box-shadow: inset 0 0 5px  rgba(0,0,0,.5); 
 	}
 	.cercle_right{
-	background-color: #fed55b;
-	width: 50px;height: 50px;top: -20px;left: -20px;
-	border-radius: 50px;position: absolute;
-	box-shadow: inset 0 0 5px  rgba(0,0,0,.5); 
+		background-color: #fed55b;
+		width: 50px;height: 50px;top: -20px;left: -20px;
+		border-radius: 50px;position: absolute;
+		box-shadow: inset 0 0 5px  rgba(0,0,0,.5); 
 	}
 	.left_side{
-	font-family: 'Orbitron', sans-serif;
-	font-size: 20px;float: right;margin-right: 10px;
+		font-family: 'Orbitron', sans-serif;
+		font-size: 20px;float: right;margin-right: 10px;
 	}
 	.right_side{
-	font-family: 'Orbitron', sans-serif;
-	font-size: 20px;float: left;
+		font-family: 'Orbitron', sans-serif;
+		font-size: 20px;float: left;
 	}
 	.left_side:hover{
-	cursor: pointer;
+		cursor: pointer;
 	}
 	.right_side:hover{
-	cursor: pointer;
+		cursor: pointer;
 	}
